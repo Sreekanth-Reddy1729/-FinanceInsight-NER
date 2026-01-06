@@ -1,0 +1,116 @@
+[General]
+{'sentence': 'The company reported revenue of USD 12.5 billion in Q4 2022.', 'entities': {'METRIC': ['revenue'], 'MONEY': ['usd 12 . 5 billion'], 'DATE': ['q4', '2022']}}
+{'sentence': 'Profit increased by 18 percent in Europe.', 'entities': {'METRIC': ['profit']}}
+{'sentence': 'In 2021, Apple announced a merger with a regional supplier.', 'entities': {'EVENT': ['merger']}}
+{'sentence': 'Apple Inc reported revenue growth in 2024.', 'entities': {'ORG': ['apple inc'], 'METRIC': ['revenue'], 'DATE': ['2024']}}
+{'sentence': 'The company earned $2.9 billion from Indian operations.', 'entities': {'MONEY': ['$ 2 . 9 billion'], 'LOC': ['indian']}}
+{'sentence': 'Microsoft Corporation posted strong quarterly earnings.', 'entities': {'ORG': ['microsoft corporation'], 'EVENT': ['earnings']}}
+{'sentence': 'Amazon recorded an increase in online sales revenue.', 'entities': {'METRIC': ['sales', 'revenue']}}
+{'sentence': 'Google reported higher advertising revenue this year.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Tesla achieved record revenue in the last quarter.', 'entities': {'ORG': ['tesla'], 'METRIC': ['revenue']}}
+{'sentence': 'Meta Platforms announced improved financial performance.', 'entities': {'PRODUCT': ['platforms']}}
+{'sentence': 'Netflix reported subscription revenue growth globally.', 'entities': {'ORG': ['netflix'], 'METRIC': ['revenue']}}
+{'sentence': 'Samsung Electronics generated strong operating revenue.', 'entities': {'ORG': ['samsung'], 'METRIC': ['revenue']}}
+{'sentence': 'IBM reported stable revenue from enterprise clients.', 'entities': {'ORG': ['ibm'], 'METRIC': ['revenue']}}
+
+[Profit & Loss]
+{'sentence': 'Apple Inc reported a rise in net profit.', 'entities': {'ORG': ['apple inc'], 'METRIC': ['profit']}}
+{'sentence': 'Microsoft achieved higher operating profit in 2024.', 'entities': {'ORG': ['microsoft'], 'METRIC': ['profit'], 'DATE': ['2024']}}
+{'sentence': 'Amazon faced a decline in profit margins.', 'entities': {'METRIC': ['profit', 'margins']}}
+{'sentence': 'Google announced steady profit growth this quarter.', 'entities': {'ORG': ['google'], 'METRIC': ['profit']}}
+{'sentence': 'Tesla reported reduced profits due to higher costs.', 'entities': {'ORG': ['tesla'], 'METRIC': ['profits']}}
+{'sentence': 'Meta recorded a significant increase in net income.', 'entities': {'ORG': ['meta'], 'METRIC': ['income']}}
+{'sentence': 'Netflix posted a decline in quarterly profit.', 'entities': {'ORG': ['netflix'], 'METRIC': ['profit']}}
+{'sentence': 'Samsung reported improved profit margins.', 'entities': {'ORG': ['samsung'], 'METRIC': ['profit', 'margins']}}
+{'sentence': 'IBM saw lower profits due to restructuring costs.', 'entities': {'METRIC': ['profits']}}
+{'sentence': 'Oracle announced consistent profit performance.', 'entities': {'ORG': ['oracle'], 'METRIC': ['profit']}}
+
+[Market & Growth]
+{'sentence': 'Apple expanded its market presence in Asia.', 'entities': {'ORG': ['apple'], 'LOC': ['asia']}}
+{'sentence': 'Microsoft strengthened its position in the cloud market.', 'entities': {'ORG': ['microsoft'], 'PRODUCT': ['cloud']}}
+{'sentence': 'Google increased its market share in digital advertising.', 'entities': {'ORG': ['google'], 'PRODUCT': ['share']}}
+{'sentence': 'Tesla expanded sales across European markets.', 'entities': {'ORG': ['tesla'], 'METRIC': ['sales']}}
+{'sentence': 'Netflix gained new subscribers in India.', 'entities': {'ORG': ['netflix'], 'LOC': ['india']}}
+{'sentence': 'Samsung increased smartphone sales worldwide.', 'entities': {'ORG': ['samsung'], 'METRIC': ['sales']}}
+{'sentence': 'IBM expanded enterprise services globally.', 'entities': {'ORG': ['ibm']}}
+{'sentence': 'Oracle strengthened its database solutions market.', 'entities': {'ORG': ['oracle'], 'PRODUCT': ['database']}}
+
+[Investment & Expansion]
+{'sentence': 'Apple announced expansion plans for Asia.', 'entities': {'ORG': ['apple'], 'LOC': ['asia']}}
+{'sentence': 'Microsoft invested heavily in artificial intelligence.', 'entities': {'ORG': ['microsoft']}}
+{'sentence': 'Amazon planned new warehouse expansions in India.', 'entities': {'LOC': ['india']}}
+{'sentence': 'Google increased investment in cloud infrastructure.', 'entities': {'ORG': ['google']}}
+{'sentence': 'Tesla invested in new battery technology.', 'entities': {'ORG': ['tesla']}}
+{'sentence': 'Meta announced investments in virtual reality.', 'entities': {'ORG': ['meta']}}
+{'sentence': 'Netflix invested in regional content production.', 'entities': {'ORG': ['netflix']}}
+{'sentence': 'Samsung expanded manufacturing facilities in Vietnam.', 'entities': {'ORG': ['samsung'], 'LOC': ['vietnam']}}
+{'sentence': 'IBM invested in cybersecurity solutions.', 'entities': {'ORG': ['ibm']}}
+{'sentence': 'Oracle announced expansion in European markets.', 'entities': {'ORG': ['oracle']}}
+
+[Risk Factors]
+{'sentence': 'Inflationary pressures reduced profit margins.', 'entities': {'METRIC': ['profit', 'margins']}}
+
+[Costs & Expenses]
+{'sentence': 'Apple reported higher manufacturing costs.', 'entities': {'ORG': ['apple']}}
+{'sentence': 'Tesla faced increased raw material costs.', 'entities': {'ORG': ['tesla']}}
+{'sentence': 'Meta reported higher marketing expenses.', 'entities': {'ORG': ['meta']}}
+{'sentence': 'Netflix increased spending on original content.', 'entities': {'ORG': ['netflix']}}
+{'sentence': 'Samsung reported higher production costs.', 'entities': {'ORG': ['samsung']}}
+
+[Financial Performance]
+{'sentence': 'Revenue growth remained consistent throughout the year.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profit margins improved compared to last year.', 'entities': {'METRIC': ['profit', 'margins']}}
+{'sentence': 'Debt levels remained manageable.', 'entities': {'PRODUCT': ['debt']}}
+{'sentence': 'Shares rose after strong earnings reports.', 'entities': {'PRODUCT': ['shares'], 'EVENT': ['earnings']}}
+{'sentence': 'Stock prices declined due to weak guidance.', 'entities': {'PRODUCT': ['stock']}}
+{'sentence': 'Investors responded positively to revenue growth.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Shareholders welcomed expansion plans.', 'entities': {'PRODUCT': ['shareholders']}}
+{'sentence': 'Stock performance improved during the quarter.', 'entities': {'PRODUCT': ['stock']}}
+{'sentence': 'Market volatility affected share prices.', 'entities': {'PRODUCT': ['share']}}
+{'sentence': 'Shares stabilized after initial decline.', 'entities': {'PRODUCT': ['shares']}}
+{'sentence': 'Analysts upgraded the stock rating.', 'entities': {'PRODUCT': ['stock']}}
+{'sentence': 'A merger was announced during the fiscal year.', 'entities': {'EVENT': ['merger']}}
+{'sentence': 'The firm completed an acquisition successfully.', 'entities': {'EVENT': ['acquisition']}}
+{'sentence': 'Revenue from India increased significantly.', 'entities': {'METRIC': ['revenue'], 'LOC': ['india']}}
+{'sentence': 'Sales in Europe showed moderate growth.', 'entities': {'METRIC': ['sales']}}
+{'sentence': 'Asia-Pacific region contributed strong revenue.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'International sales declined slightly.', 'entities': {'METRIC': ['sales']}}
+{'sentence': 'Overseas revenue supported overall growth.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Regional expansion boosted sales figures.', 'entities': {'METRIC': ['sales']}}
+{'sentence': 'Management issued cautious revenue guidance.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Future earnings are expected to improve.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Profit forecasts exceeded expectations.', 'entities': {'METRIC': ['profit']}}
+{'sentence': 'Revenue projections were revised upward.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Process optimization improved margins.', 'entities': {'METRIC': ['margins']}}
+{'sentence': 'Tax regulations impacted profitability.', 'entities': {'METRIC': ['profitability']}}
+{'sentence': 'Dividend payouts remained consistent.', 'entities': {'EVENT': ['dividend']}}
+{'sentence': 'Share buybacks supported stock prices.', 'entities': {'PRODUCT': ['share', 'stock']}}
+{'sentence': 'Revenue growth accelerated in the second half.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Earnings improved due to cost reductions.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Profit margins stabilized after decline.', 'entities': {'METRIC': ['profit', 'margins']}}
+{'sentence': 'Sales performance exceeded projections.', 'entities': {'METRIC': ['sales']}}
+{'sentence': 'Market expansion supported revenue growth.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Investment returns met expectations.', 'entities': {'METRIC': ['returns']}}
+{'sentence': 'Revenue diversification reduced risk.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profitability improved across segments.', 'entities': {'METRIC': ['profitability']}}
+{'sentence': 'Revenue streams expanded globally.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Earnings stability increased investor confidence.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Revenue contribution from new products increased.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profit recovery was observed.', 'entities': {'METRIC': ['profit']}}
+{'sentence': 'Operational improvements enhanced margins.', 'entities': {'METRIC': ['margins']}}
+{'sentence': 'Revenue targets were achieved.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profit goals were met.', 'entities': {'METRIC': ['profit']}}
+{'sentence': 'Revenue consistency supported planning.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Earnings visibility improved.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Revenue expansion supported valuation.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profit stability reassured investors.', 'entities': {'METRIC': ['profit']}}
+{'sentence': 'Revenue growth supported expansion.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Earnings performance exceeded expectations.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Revenue outlook remained positive.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profit margins stabilized.', 'entities': {'METRIC': ['profit', 'margins']}}
+{'sentence': 'Earnings growth continued.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Revenue improvement boosted confidence.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Profit recovery strengthened outlook.', 'entities': {'METRIC': ['profit']}}
+{'sentence': 'Revenue trends remained strong.', 'entities': {'METRIC': ['revenue']}}
+{'sentence': 'Earnings quality improved.', 'entities': {'EVENT': ['earnings']}}
+{'sentence': 'Market growth supported revenues.', 'entities': {'METRIC': ['revenues']}}

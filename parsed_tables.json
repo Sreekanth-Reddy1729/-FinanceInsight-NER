@@ -1,0 +1,120 @@
+[
+  {
+    "table_type": "Balance Sheet",
+    "rows": [
+      {
+        "item": "Total Assets",
+        "value": "351,000"
+      },
+      {
+        "item": "Total Liabilities",
+        "value": "287,000"
+      }
+    ],
+    "table_id": 1
+  },
+  {
+    "table_type": "Income Statement",
+    "rows": [
+      {
+        "item": "Total Revenue",
+        "value": "394,000"
+      },
+      {
+        "item": "Cost of Revenue",
+        "value": "223,000"
+      },
+      {
+        "item": "Net Income",
+        "value": "99,000"
+      }
+    ],
+    "table_id": 2
+  },
+  {
+    "table_type": "Cash Flow Statement",
+    "rows": [
+      {
+        "item": "Operating Cash Flow",
+        "value": "122,000"
+      },
+      {
+        "item": "Investing Cash Flow",
+        "value": "-45,000"
+      },
+      {
+        "item": "Financing Cash Flow",
+        "value": "-20,000"
+      }
+    ],
+    "table_id": 3
+  },
+  {
+    "table_type": "Quarterly Revenue",
+    "rows": [
+      {
+        "item": "Q1 Revenue",
+        "value": "98,000"
+      },
+      {
+        "item": "Q2 Revenue",
+        "value": "101,000"
+      },
+      {
+        "item": "Q3 Revenue",
+        "value": "96,000"
+      },
+      {
+        "item": "Q4 Revenue",
+        "value": "99,000"
+      }
+    ],
+    "table_id": 4
+  },
+  {
+    "table_type": "Expense Breakdown",
+    "rows": [
+      {
+        "item": "Research Expenses",
+        "value": "29,000"
+      },
+      {
+        "item": "Marketing Expenses",
+        "value": "21,000"
+      }
+    ],
+    "table_id": 5
+  },
+  {
+    "table_type": "Debt Schedule",
+    "rows": [
+      {
+        "item": "Short-term Debt",
+        "value": "25,000"
+      },
+      {
+        "item": "Long-term Debt",
+        "value": "105,000"
+      },
+      {
+        "item": "Total Debt",
+        "value": "130,000"
+      }
+    ],
+    "table_id": 6
+  },
+  {
+    "table_type": "Liquidity Position",
+    "rows": [
+      {
+        "item": "Current Assets",
+        "value": "135,000"
+      },
+      {
+        "item": "Working Capital",
+        "value": "40,000"
+      }
+    ],
+    "table_id": 7
+  }
+]
